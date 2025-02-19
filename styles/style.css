@@ -292,6 +292,10 @@ ol {
   gap: 15px;
 }
 
+.search-form__textfield:not(:placeholder-shown) {
+  background-color: transparent;
+}
+
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
