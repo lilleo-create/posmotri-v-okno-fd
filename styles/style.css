@@ -50,6 +50,15 @@ fieldset {
   padding: 0;
 }
 
+input {
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 ul,
 ol {
   list-style: none;
@@ -285,6 +294,9 @@ ol {
   justify-content: center;
   align-items: center;
   border: 1px solid #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   inline-size: 19px;
   block-size: 19px;
 }
