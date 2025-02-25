@@ -83,25 +83,16 @@ ol {
 
 .content__details {
   grid-area: details;
-  max-width: 399px;
-  align-self: start;
   justify-self: start;
+  align-self: start;
+  max-width: 399px;
 }
 
 .content__list-container {
   position: relative;
-  Width: 399px;
   height: 298px;
   overflow: auto;
-}
-
-.title {
-  padding-bottom: 22px;
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 75px;
-  line-height: 70.5px;
-  text-transform: uppercase;
+  Width: 399px;
 }
 
 .content__accent {
@@ -126,11 +117,20 @@ ol {
   object-position: center;
 }
 
+.title {
+  padding-bottom: 22px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 70.5px;
+  text-transform: uppercase;
+}
+
 .content__list {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  padding-bottom: 28px;
+  padding-bottom: 29px;
 }
 
 .content__list-item {
@@ -157,7 +157,7 @@ ol {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  gap: 3px;
+  gap: 2px;
   min-width: 0;
 }
 
@@ -207,6 +207,13 @@ ol {
   height: 100%;
   outline: 1px solid #ffffff;
 }
+
+.content__card-link_current {
+  display: block;
+  width: 100%;
+  background-color: #545050;
+}
+
 
 /* Стили для формы и кнопок */
 
@@ -306,11 +313,11 @@ ol {
 
 .button {
   border: 1px solid #fff;
-  color: #fff;
+  color: currentColor;
   font-family: inherit;
+  font-weight: 700;
   font-size: 18px;
   line-height: 21.6px;
-  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
